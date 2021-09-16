@@ -14,3 +14,4 @@ Project/Name     | Description                  |        Link
 The Cherno       | Game Engine series, my entire logic is build on top of his idea and series           |   https://www.youtube.com/watch?v=JxIZbV_XjAs&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT
 spdlog           | Super fast logger            |   https://github.com/gabime/spdlog
 premake5         | Builds the project properly  |   https://github.com/premake/premake-core
+glfw             | cross platform Graphics library | https://github.com/MugirawaLuffy/glfw (forked, not mine)
