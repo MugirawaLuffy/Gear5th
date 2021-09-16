@@ -1,6 +1,6 @@
 #pragma once
-#include "../Core.h"
-//#include "Gear5th/Core.h"
+
+#include "Gear5th/Core.h"
 
 #include <string>
 #include <functional>
