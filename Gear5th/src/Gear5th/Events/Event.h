@@ -1,9 +1,7 @@
 #pragma once
 
 #include "Gear5th/Core.h"
-
-#include <string>
-#include <functional>
+#include "g5pch.h"
 
 namespace Gear5th
 {

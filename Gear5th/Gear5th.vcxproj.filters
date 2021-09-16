@@ -34,6 +34,7 @@
     <ClInclude Include="src\Gear5th\Log.h">
       <Filter>Gear5th</Filter>
     </ClInclude>
+    <ClInclude Include="src\g5pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Gear5th\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\Gear5th\Log.cpp">
       <Filter>Gear5th</Filter>
     </ClCompile>
+    <ClCompile Include="src\g5pch.cpp" />
   </ItemGroup>
 </Project>

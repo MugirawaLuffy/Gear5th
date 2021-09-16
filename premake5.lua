@@ -17,6 +17,9 @@ project "Gear5th"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "g5pch.h"
+	pchsource "Gear5th/src/g5pch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

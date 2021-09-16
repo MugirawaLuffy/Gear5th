@@ -1,3 +1,4 @@
+#include "g5pch.h"
 #include "Log.h"
 
 namespace Gear5th

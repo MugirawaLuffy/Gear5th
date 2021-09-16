@@ -1,3 +1,4 @@
+#include "g5pch.h"
 #include "Application.h"
 #include "Log.h"
 #include "Events/ApplicationEvent.h"
@@ -24,10 +25,7 @@ namespace Gear5th
 		{
 			G5_TRACE(e);
 		}
-		while (true)
-		
-		
-
+		while (true);
 	}
 }
 

@@ -4,8 +4,6 @@
 #include "spdlog/sinks/stdout_color_sinks.h"
 #include "spdlog/fmt/ostr.h"
 
-#include <memory>
-
 namespace Gear5th
 {
 	class GEAR5TH_API Log

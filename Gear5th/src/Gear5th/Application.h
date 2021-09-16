@@ -12,7 +12,7 @@ namespace Gear5th
 
 		void Run();
 	};
-	//Defined in Cient
+	//Defined in Client
 	Application* CreateApplication();
 }
 
