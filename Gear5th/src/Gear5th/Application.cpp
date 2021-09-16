@@ -2,10 +2,14 @@
 #include "Application.h"
 #include "Log.h"
 #include "Events/ApplicationEvent.h"
+
+#include <GLFW/glfw3.h>
+
 namespace Gear5th
 {
 	Gear5th::Application::Application()
 	{
+		m_Window = std::unique_ptr<Window>(Window::Create());
 	}
 
 	Gear5th::Application::~Application()
@@ -14,18 +18,14 @@ namespace Gear5th
 
 	void Application::Run()
 	{
-		
-		
-		WindowResizeEvent e(1280, 720);
-		if (e.IsInCategory(EventCategoryApplication))
+
+
+		while (m_Running)
 		{
-			G5_TRACE(e);
+			glClearColor(0.025, 0.025, 0.08, 0.6);
+			glClear(GL_COLOR_BUFFER_BIT);
+			m_Window->OnUpdate();
 		}
-		if (e.IsInCategory(EventCategoryInput))
-		{
-			G5_TRACE(e);
-		}
-		while (true);
 	}
 }
 

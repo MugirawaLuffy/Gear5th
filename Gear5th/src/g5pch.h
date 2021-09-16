@@ -6,6 +6,8 @@
 #include <algorithm>
 #include <functional>
 
+#include "Gear5th/Log.h"
+
 #include <string>
 #include <sstream>
 #include <vector>

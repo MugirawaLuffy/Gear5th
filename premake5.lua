@@ -9,6 +9,12 @@ workspace "Gear5th"
 	}
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+-- Include directories relative to root folder (solution directory)
+IncludeDir = {}
+IncludeDir["GLFW"] = "Gear5th/vendor/GLFW/include"
+
+include "Gear5th/vendor/GLFW"
+
 project "Gear5th"
 	location "Gear5th"
 	kind "SharedLib"
@@ -26,10 +32,17 @@ project "Gear5th"
 		"%{prj.name}/src/**.cpp"
 	}
 
-	 includedirs
+	includedirs
 	{
 		"%{prj.name}/src",
-		"%{prj.name}/vendor/spdlog/include;"
+		"%{prj.name}/vendor/spdlog/include;",
+		"%{IncludeDir.GLFW}"
+	}
+
+	links 
+	{ 
+		"GLFW",
+		"opengl32.lib"
 	}
 
 	filter "system:windows"

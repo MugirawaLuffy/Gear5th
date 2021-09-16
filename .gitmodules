@@ -1,3 +1,6 @@
 [submodule "Gear5th/vendor/spdlog"]
 	path = Gear5th/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "Gear5th/vendor/glfw"]
+	path = Gear5th/vendor/glfw
+	url = https://github.com/MugirawaLuffy/glfw
