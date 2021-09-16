@@ -4,6 +4,9 @@
     <Filter Include="Gear5th">
       <UniqueIdentifier>{553BDA4F-C11A-59EB-CA32-E4C13691BF4C}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Gear5th\Events">
+      <UniqueIdentifier>{9935FB1F-8503-EF25-6E97-5F4C5A04CB8A}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Gear5th.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Gear5th\EntryPoint.h">
       <Filter>Gear5th</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gear5th\Events\ApplicationEvent.h">
+      <Filter>Gear5th\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gear5th\Events\Event.h">
+      <Filter>Gear5th\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gear5th\Events\KeyEvent.h">
+      <Filter>Gear5th\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gear5th\Events\MouseEvent.h">
+      <Filter>Gear5th\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Gear5th\Log.h">
       <Filter>Gear5th</Filter>
