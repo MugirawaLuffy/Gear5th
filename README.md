@@ -24,9 +24,12 @@ Author          | Description                  |        Link
 ---------------- | ---------------------------- | ------------------------------------------------------------------------------------
 The Cherno       | Game Engine series, my entire logic is build on top of his idea and series           |   https://www.youtube.com/watch?v=JxIZbV_XjAs&list=PLlrATfBNZ98dC-V-
 
-### articles
+
+### articles / written sources
 
 Author            | Description                  |        Link
 ---------------- | ---------------------------- | ------------------------------------------------------------------------------------
 harroldserrano  |    article on necessary steps to write an engine |    https://www.haroldserrano.com/blog/how-to-become-a-game-engine-developer
 Michael Kissner  |  step by step written tutorial| https://www.gamedeveloper.com/programming/writing-a-game-engine-from-scratch---part-1-messaging
+GLFW        | Documentation on GLFW 3 | https://www.glfw.org/docs/3.3/
+OpenGL      | Getting started with OpenGL | https://www.khronos.org/opengl/wiki/Getting_Started
