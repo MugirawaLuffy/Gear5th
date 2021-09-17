@@ -1,5 +1,5 @@
 # Gear5th
-Gear5th is a Game engine unlike any other. It's a game engine, in that you can build impressive 3d scenes, and a game engine in that you can script live into your 3D objects. Besides the obvious Game engine features, Geart5h purpose is another, one could almost describe as visualisation. With Gear5th, you will be able to build impressive visualisations of complex behaviours and algorithms, which makes the engine a convenient solution for school projects and similar things.
+Gear5th is a Game engine unlike any other. It's a game engine, in that you can build impressive 3d scenes, and a game engine in that you can script live into your 3D objects. Besides the obvious Game engine features, Gear5h purpose is another, one could almost describe as visualisation. With Gear5th, you will be able to build impressive visualisations of complex behaviours and algorithms, which makes the engine a convenient solution for school projects and similar things.
 
 
 
