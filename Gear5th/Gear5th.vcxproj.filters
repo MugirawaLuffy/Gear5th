@@ -37,6 +37,12 @@
     <ClInclude Include="src\Gear5th\Events\MouseEvent.h">
       <Filter>Gear5th\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\Gear5th\Layer.h">
+      <Filter>Gear5th</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gear5th\LayerStack.h">
+      <Filter>Gear5th</Filter>
+    </ClInclude>
     <ClInclude Include="src\Gear5th\Log.h">
       <Filter>Gear5th</Filter>
     </ClInclude>
@@ -50,6 +56,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Gear5th\Application.cpp">
+      <Filter>Gear5th</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gear5th\Layer.cpp">
+      <Filter>Gear5th</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gear5th\LayerStack.cpp">
       <Filter>Gear5th</Filter>
     </ClCompile>
     <ClCompile Include="src\Gear5th\Log.cpp">
