@@ -7,7 +7,7 @@ Gear5th is a Game engine unlike any other. It's a game engine, in that you can b
 Once a stable release is showing up here, the engine is working to fulfill it's purpose. Until that, I'm working on it in the early stages. If you have ideas yourself, make sure to create pull requests, I'd be happy.
 
 # Credits
-Building such a big project in C++ isn't easy. That is why I make use of many third party libraries and other resources to make my own life easier. Of course I leave the license of all of them in my projects, but I find it appropriate to mark other people's work in my README so it's easier to see.
+Building such a big project in C++ ain't easy. That is why I make use of many third party libraries and other resources to make my own life easier. Of course I leave the license of all of them in my projects, but I find it appropriate to mark other people's work in my README so it's easier to see.
 
 ## Projects
 
@@ -28,7 +28,7 @@ The Cherno       | Game Engine series, my entire logic is build on top of his id
 
 Author            | Description                  |        Link
 ---------------- | ---------------------------- | ------------------------------------------------------------------------------------
-harroldserrano  |    article on necessary steps to write an engine |    https://www.haroldserrano.com/blog/how-to-become-a-game-engine-developer
+Harrold Serrano  |    article on necessary steps to write an engine |    https://www.haroldserrano.com/blog/how-to-become-a-game-engine-developer
 Michael Kissner  |  step by step written tutorial| https://www.gamedeveloper.com/programming/writing-a-game-engine-from-scratch---part-1-messaging
 GLFW        | Documentation on GLFW 3 | https://www.glfw.org/docs/3.3/
 OpenGL      | Getting started with OpenGL | https://www.khronos.org/opengl/wiki/Getting_Started
