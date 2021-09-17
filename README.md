@@ -13,7 +13,6 @@ Building such a big project in C++ isn't easy. That is why I make use of many th
 
 Project/Name     | Description                  |        Link
 ---------------- | ---------------------------- | ------------------------------------------------------------------------------------
-N3m0Go4deliWHPFwT
 spdlog           | Super fast logger            |   https://github.com/gabime/spdlog
 premake5         | Builds the project properly  |   https://github.com/premake/premake-core
 glfw             | cross platform Graphics library | https://github.com/MugirawaLuffy/glfw (forked, not mine)
