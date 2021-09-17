@@ -25,7 +25,7 @@ The Cherno       | Game Engine series, my entire logic is build on top of his id
 CrashCourse     | Understanding the Rendering Pipeline  | https://www.youtube.com/watch?v=TEAtmCYYKZA
 
 
-### articles / written sources
+### articles / written sources / websites
 
 Author            | Description                  |        Link
 ---------------- | ---------------------------- | ------------------------------------------------------------------------------------
@@ -33,3 +33,4 @@ Harrold Serrano  |    article on necessary steps to write an engine |    https:/
 Michael Kissner  |  step by step written tutorial| https://www.gamedeveloper.com/programming/writing-a-game-engine-from-scratch---part-1-messaging
 GLFW        | Documentation on GLFW 3 | https://www.glfw.org/docs/3.3/
 OpenGL      | Getting started with OpenGL | https://www.khronos.org/opengl/wiki/Getting_Started
+GLAD	| MultiLanguage (in my Case) OpenGL Loader (Make sure to define "GLFW_INCLUDE_NONE")| https://glad.dav1d.de (config)

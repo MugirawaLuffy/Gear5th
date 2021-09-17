@@ -12,8 +12,10 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 -- Include directories relative to root folder (solution directory)
 IncludeDir = {}
 IncludeDir["GLFW"] = "Gear5th/vendor/GLFW/include"
+IncludeDir["Glad"] = "Gear5th/vendor/Glad/include"
 
 include "Gear5th/vendor/GLFW"
+include "Gear5th/vendor/Glad"
 
 project "Gear5th"
 	location "Gear5th"
@@ -36,12 +38,14 @@ project "Gear5th"
 	{
 		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include;",
-		"%{IncludeDir.GLFW}"
+		"%{IncludeDir.GLFW}",
+		"%{IncludeDir.Glad}"
 	}
 
 	links 
 	{ 
 		"GLFW",
+		"Glad",
 		"opengl32.lib"
 	}
 
@@ -107,10 +111,12 @@ project "Sandbox"
 		staticruntime "On"
 		systemversion "latest"
 
-		defines
-		{
-			"G5_PLATFORM_WINDOWS"
-		}
+	defines
+	{
+		"G5_PLATFORM_WINDOWS",
+		"G5_BUILD_DLL",
+		"GLFW_INCLUDE_NONE"
+	}
 
 	filter "configurations:Debug"
 		defines "G5_DEBUG"

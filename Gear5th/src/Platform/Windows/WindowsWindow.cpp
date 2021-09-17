@@ -1,12 +1,11 @@
 #include "g5pch.h"
 #include "WindowsWindow.h"
 
-
-#include "Gear5th/Events/KeyEvent.h"
-#include "Gear5th/Events/MouseEvent.h"
 #include "Gear5th/Events/ApplicationEvent.h"
+#include "Gear5th/Events/MouseEvent.h"
+#include "Gear5th/Events/KeyEvent.h"
 
-
+#include <glad/glad.h>
 
 namespace Gear5th
 {
@@ -51,6 +50,11 @@ namespace Gear5th
 		}
 		m_Window = glfwCreateWindow((int)props.Width, (int)props.Height, m_Data.Title.c_str(), nullptr, nullptr);
 		glfwMakeContextCurrent(m_Window);
+
+		//init Glad
+		int status = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
+		G5_CORE_ASSERT(status, "Failed to initialize Glad");
+
 		glfwSetWindowUserPointer(m_Window, &m_Data);
 		SetVSync(true);
 
