@@ -21,7 +21,8 @@ glfw             | cross platform Graphics library | https://github.com/Mugirawa
 
 Author          | Description                  |        Link
 ---------------- | ---------------------------- | ------------------------------------------------------------------------------------
-The Cherno       | Game Engine series, my entire logic is build on top of his idea and series           |   https://www.youtube.com/watch?v=JxIZbV_XjAs&list=PLlrATfBNZ98dC-V-
+The Cherno       | Game Engine series, my entire logic is build on top of his idea and series   |   https://www.youtube.com/watch?v=JxIZbV_XjAs&list=PLlrATfBNZ98dC-V-
+CrashCourse     | Understanding the Rendering Pipeline  | https://www.youtube.com/watch?v=TEAtmCYYKZA
 
 
 ### articles / written sources
