@@ -10,9 +10,7 @@ int main(int argc, char** argv)
 	
 	Gear5th::Log::Init();
 	G5_CORE_WARN("Initialized Engine Logger");
-
 	G5_INFO("Initialized Client-side Logger");
-	G5_CORE_ERROR("caught up in while(true)");
 	
 
 	auto app = Gear5th::CreateApplication();

@@ -12,7 +12,7 @@ namespace Gear5th
 		EVENT_CLASS_CATEGORY(EventCategoryKeyboard | EventCategoryInput)
 	protected:							//protected constructor because only inheriting types shall construct Key Events
 		KeyEvent(int keycode)
-			: mKeyCode(keycode)
+			: m_KeyCode(keycode)
 		{}
 
 		int m_KeyCode;
@@ -50,7 +50,7 @@ namespace Gear5th
 		{
 			std::stringstream ss;
 			ss << "KeyReleasedEvent: " << m_KeyCode;
-			return ss;
+			return ss.str();
 		}
 
 		EVENT_CLASS_TYPE(KeyReleased)
