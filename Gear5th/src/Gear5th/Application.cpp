@@ -1,7 +1,7 @@
 #include "g5pch.h"
 #include "Application.h"
 #include "Log.h"
-#include "Events/ApplicationEvent.h"
+#include "Events/Event.h"
 
 #include <GLFW/glfw3.h>
 
@@ -21,19 +21,27 @@ namespace Gear5th
 
 	void Application::OnEvent(Event& e)
 	{
-		G5_CORE_INFO("{0}", e);
+		EventDispatcher dispatcher(e);
+		dispatcher.Dispatch<WindowCloseEvent>(BIND_EVENT_FN(OnWindowClose));
+
+		G5_CORE_TRACE("{0}", e);
 	}
 
 	void Application::Run()
 	{
-
-
 		while (m_Running)
 		{
 			glClearColor(0.025, 0.025, 0.08, 0.6);
 			glClear(GL_COLOR_BUFFER_BIT);
 			m_Window->OnUpdate();
 		}
+	}
+
+
+	bool Application::OnWindowClose(WindowCloseEvent& e)
+	{
+		m_Running = false;
+		return true;
 	}
 }
 

@@ -57,11 +57,12 @@ namespace Gear5th
 	class EventDispatcher
 	{
 		template<typename T>
-		using EventFn = std::function<bool>(T&);
+		using EventFn = std::function<bool(T&)>;
 	public:
 		EventDispatcher(Event& event)
 			: m_Event(event)
-		{}
+		{
+		}
 
 		template<typename T>
 		bool Dispatch(EventFn<T> func)

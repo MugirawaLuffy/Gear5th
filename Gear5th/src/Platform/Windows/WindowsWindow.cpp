@@ -67,6 +67,7 @@ namespace Gear5th
 			data.EventCallback(event);
 		});
 
+
 		glfwSetWindowCloseCallback(m_Window, [](GLFWwindow* window)
 		{
 			WindowData& data = *(WindowData*)glfwGetWindowUserPointer(window);
