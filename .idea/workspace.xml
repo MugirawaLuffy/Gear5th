@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d5490a5-d271-468e-9d52-ccbf506619ea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.premake.lua.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Gear5th/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Gear5th/v16/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Gear5th/v16/Solution.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Gear5th/v16/ipch/AutoPCH/340d6ddf91613ea7/TEST.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/Gear5th.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/Gear5th.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th/Application.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th/Application.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th/Core.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th/EntryPoint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th/Events/ApplicationEvent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th/Events/Event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th/Events/KeyEvent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th/Events/MouseEvent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th/Layer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th/Layer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th/LayerStack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th/LayerStack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th/Log.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th/Log.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Gear5th/Window.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Platform/Windows/WindowsWindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/Platform/Windows/WindowsWindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/g5pch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/src/g5pch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/vendor/Glad/Glad.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/vendor/Glad/Glad.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/vendor/Glad/include/KHR/khrplatform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/vendor/Glad/include/glad/glad.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/vendor/Glad/premake5.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/vendor/Glad/src/glad.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/vendor/glfw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gear5th/vendor/spdlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenerateProjects.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/Sandbox.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/src/SandboxApp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-int/Debug-x64/Gear5th/Gear5th.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-int/Debug-x64/Sandbox/Sandbox.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/premake5.lua" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ycwG8IIjhfXWsNk3JLOCYmDOdi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d5490a5-d271-468e-9d52-ccbf506619ea" name="Changes" comment="" />
+      <created>1632564088823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632564088823</updated>
+      <workItem from="1632564091141" duration="21000" />
+      <workItem from="1633341630063" duration="728000" />
+      <workItem from="1633380244254" duration="137000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
